@@ -1,0 +1,66 @@
+:root{
+    --primary-color: rgb(219, 97, 148);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: var(--primary-color);
+    font-family: "Caveat";
+    word-spacing: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #F8C8DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+
+
+p{
+    margin: 13px 13px;
+    /* font-size: 20px; */
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 10px;
+}
+.btn{
+    margin: auto 15px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    min-width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn--agree:hover{
+    background-color: rgba(219, 97, 148,0.5);
+}
+
+.btn--disagree:hover{
+    background-color: rgba(219, 97, 148,0.5);
+}
