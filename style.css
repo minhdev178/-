@@ -1,24 +1,26 @@
-:root{
+:root {
     --primary-color: rgb(219, 97, 148);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     color: var(--primary-color);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     word-spacing: 10px;
 }
 
-body{
+body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.container{
+.container {
     height: 100vh;
     width: 100%;
     background-color: #F8C8DC;
@@ -28,22 +30,22 @@ body{
     line-height: 30px;
 }
 
-
-p{
+p {
     margin: 13px 13px;
     /* font-size: 20px; */
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
 }
 
-h1{
+h1 {
     margin-top: 10px;
 }
-.btn{
-    margin: auto 15px;
+
+.btn {
+    margin: 0 15px;
     padding: 20px 30px;
     border-radius: 50px;
     border: none;
@@ -57,10 +59,7 @@ h1{
     color: #fff;
 }
 
-.btn--agree:hover{
-    background-color: rgba(219, 97, 148,0.5);
-}
-
-.btn--disagree:hover{
-    background-color: rgba(219, 97, 148,0.5);
+.btn--agree:hover, 
+.btn--disagree:hover {
+    background-color: rgba(219, 97, 148, 0.5);
 }
